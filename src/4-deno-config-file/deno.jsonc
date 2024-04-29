@@ -1,0 +1,11 @@
+{
+  "imports": {
+    // To add a aliases called unit-test for this standard library "https://deno.land/std@0.223.0/"
+    "unit-test/": "https://deno.land/std@0.223.0/"
+  },
+  "tasks": {
+    // It's similar with scripts field in package.json
+    // it can be executed by running deno task dev
+    "dev": "deno test ./index.ts"
+  }
+}
